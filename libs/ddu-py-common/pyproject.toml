@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools==83.0.0", "wheel==0.47.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ddu-py-common"
+version = "0.0.1"
+description = "Shared utilities for DDU Python services"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi==0.140.13",
+    "uvicorn[standard]==0.52.0",
+    "httpx==0.28.1",
+    "pydantic==2.13.4",
+    "tenacity==9.1.4",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
