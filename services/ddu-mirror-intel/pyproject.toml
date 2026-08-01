@@ -23,7 +23,7 @@ dependencies = [
     "python-json-logger==3.3.0",
     "python-multipart==0.0.31",
     "redis==7.2.2",
-    "sentry-sdk[fastapi]==2.32.0",
+    "sentry-sdk[fastapi]==2.66.1",
     "slowapi==0.1.10",
     "uvicorn[standard]==0.52.0",
 ]
