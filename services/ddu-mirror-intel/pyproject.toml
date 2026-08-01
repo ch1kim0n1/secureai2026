@@ -34,7 +34,7 @@ dependencies = [
 # cached account results. A hackathon demo should not be one pip install away
 # from a blank screen.
 [project.optional-dependencies]
-llm = ["anthropic==0.116.0"]
+llm = ["anthropic==0.120.2"]
 discovery = ["sherlock-project==0.15.0"]
 # Only needed to regenerate curated demo JPEGs with GPS EXIF.
 vision-assets = ["piexif==1.1.3"]
