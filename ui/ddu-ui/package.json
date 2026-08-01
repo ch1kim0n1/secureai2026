@@ -16,7 +16,7 @@
     "@mediapipe/tasks-vision": "1.0.0",
     "@react-three/drei": "10.7.7",
     "@react-three/fiber": "9.6.1",
-    "@sentry/react": "9.40.0",
+    "@sentry/react": "10.69.0",
     "cytoscape": "3.34.0",
     "gsap": "3.13.0",
     "maplibre-gl": "4.7.1",
